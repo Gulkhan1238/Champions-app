@@ -1,0 +1,101 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+max-width: 400px;
+}
+
+.container{
+    
+    text-align: center;
+    background-color: rgba(18, 18, 18, 0.983);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+}
+.image img{
+    width: 60px;
+    margin-top: 30px;
+}
+.image h2{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+#text-area{
+    padding: 11px 10px;
+    border-radius: 10px;
+    color: white;
+    background-color:#444059;
+    font-size: 18px;
+    margin: 0 10px;
+   
+}
+#publish-btn{
+    margin-top: 5px;
+    padding: 12px 12px;
+    background-color: #28A9F1;
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    width: 80%;
+    border-radius: 6px;
+}
+h4{
+    color: white;
+   
+}
+
+#ul-el{
+    list-style: none;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    padding: 10px 20px;
+}
+#ul-el li{
+    list-style-type: none;
+    background-color: white;
+    padding: 30px 10px ;
+    border-radius: 10px;
+    background-color: bisque;
+    position: relative;
+}
+
+@media (max-width:1536px ) and (min-width:610px) {
+    html,body{
+        max-width: 1536px;
+        min-width: 610px;
+    }
+    .image img{
+        width: 100px;
+
+    }
+    #publish-btn{
+        width: 35%;
+        display: block;
+        margin:auto;
+        margin-top: 10px ;
+    }
+    #ul-el li{
+        margin: 5px 100px;
+    }
+    #text-area{
+        width: 45%;
+    }
+   
+}
+@media (max-width:600px) {
+    html,body{
+        max-width: 600px ;
+    }
+    #publish-btn{
+        width: 50%;
+        display: block;
+        
+        margin: auto;
+        margin-top: 10px;
+    }
+}
+
